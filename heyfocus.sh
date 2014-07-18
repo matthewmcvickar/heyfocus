@@ -13,6 +13,8 @@ if grep -Fxq "${start_token}" $hosts_file; then
     sed -ie "/${start_token}/,/${end_token}/d" $hosts_file
     $restart_network
 
+    echo "Distracting sites unblocked. Have fun!"
+
 # Otherwise, add the blocked sites to the hosts file.
 else
     echo $start_token >> $hosts_file
@@ -31,4 +33,7 @@ else
     echo $end_token >> $hosts_file
 
     $restart_network
+
+    echo "Distracting sites blocked. Get to work!"
+
 fi

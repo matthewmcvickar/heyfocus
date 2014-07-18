@@ -10,14 +10,27 @@ This script borrows heavily from [Alex Payne's Get-Back-To-Work Hack](https://al
 ## Usage/Installation
 
 
+### Don't Use This
+
+This is not a very robust or flexible script and it may not work on your computer for any number of reasons. It shouldn't screw up your hosts file, but it might? ¯\(ツ)/¯
+
+So:
+
+- If you want something that Just Works, can block applications and not just URLs, and can do lots of other things, get [Concentrate](http://www.getconcentrating.com/) ($29). (I have used this app for years but wanted something I could trigger from the command line and just need blocked domains, so I made Hey! Focus!.)
+
+- If you want to block your access to the internet entirely, use [Freedom](http://macfreedom.com/) ($10).
+
+
 ### Alfred Workflow
 
-If you use Alfred and want to toggle Hey! Focus! that way, **[download the HeyFocus.alfredworkflow](raw/master/Hey!%20Focus!.alfredworkflow)** and install it. You will be asked for your admin password when running the script (and the dialog that asks you for it won't get focus, which is very annoying.)
+If you use Alfred and want to toggle Hey! Focus! that way, **[download the HeyFocus.alfredworkflow](raw/master/Hey!%20Focus!.alfredworkflow)** and install it.
+
+You will be asked for your admin password when running the script. Note that the dialog that asks you for it won't get focus, which is very annoying (and [not fixable](http://www.alfredforum.com/topic/3304-focus-when-opening-encrypted-disk-image-files/)).
 
 If you want to add to or delete sites from the list of those to block, right-click on the workflow in the list of Alfred workflows, choose 'Show in Finder', and edit the *sites-to-block.txt* file.
 
 
-### Command Line
+### Shell Script
 
 **[Download this repository](archive/master.zip)**, stick it in a folder somewhere, and add an alias to it in your shell resource file, like this:
 
