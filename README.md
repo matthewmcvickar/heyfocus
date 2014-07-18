@@ -1,6 +1,6 @@
 <img src="art/icon.png" width="200">
 
-A script that adds a bunch of distracting sites to my `/etc/hosts` file <s>and redirect their URLs to a motivational page instead</s>.
+A script that adds a bunch of distracting sites to the `hosts` file <s>and redirect their URLs to a motivational page instead</s>.
 
 The sites to block are listed in *[sites-to-block.txt](sites-to-block.txt)*.
 
