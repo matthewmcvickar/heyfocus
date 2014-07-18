@@ -1,7 +1,7 @@
 #!/bin/bash
 
 hosts_file="/etc/hosts"
-sites_to_block="sites-to-block"
+sites_to_block="sites-to-block.txt"
 start_token="# Begin list of sites to block while focusing."
 end_token="# End list of sites to block while focusing."
 restart_network="dscacheutil -flushcache"
