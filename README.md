@@ -12,7 +12,7 @@ This script borrows heavily from [Alex Payne's Get-Back-To-Work Hack](https://al
 
 ### Don't Use This
 
-This is not a very robust or flexible script and it may not work on your computer for any number of reasons. It shouldn't screw up your hosts file, but it might? ¯\\(ツ)/¯
+This is not a very robust or flexible script and it may not work on your computer for any number of reasons. It shouldn't screw up your `hosts` file, but it might? ¯\\(ツ)/¯
 
 So:
 
@@ -45,4 +45,4 @@ If you want to add to or delete sites from the list of those to block, edit the 
 
 ## What About Redirecting to a Specific URL?
 
-Like Alex Payne [suggests](https://al3x.net/2009/09/14/my-get-back-to-work-hack.html). But I can't do this! I use `127.0.0.1` for my webroot and don't want to put an index file in there with a motivational message—I want to see my list of folders. It's not possible to redirect to a specific URL with `/etc/hosts`; only an IP address. Theoretically, I could use MAMP to set up a port like 127.0.0.1:5555 that goes to a specific directory, then direct something like 127.0.0.2 to that using [local port forwarding with `pf`](https://gist.github.com/kujohn/7209628), but that's getting pretty hairy.
+Like Alex Payne [suggests](https://al3x.net/2009/09/14/my-get-back-to-work-hack.html). But I can't do this! I use `127.0.0.1` for my webroot and don't want to put an index file in there with a motivational message—I want to see my list of folders. It's not possible to redirect to a specific URL with a `hosts` file; only an IP address. Theoretically, I could use MAMP to set up a port like `127.0.0.1:5555` that goes to a specific directory, then direct something like `127.0.0.2` to that using [local port forwarding with `pf`](https://gist.github.com/kujohn/7209628), but that's getting pretty hairy.
