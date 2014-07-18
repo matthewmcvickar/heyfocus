@@ -1,6 +1,6 @@
 <img src="art/icon.png" width="200">
 
-A script that adds a bunch of distracting sites to the `hosts` file <s>and redirect their URLs to a motivational page instead</s>.
+A script that add distracting sites to the `hosts` file and redirects them to `localhost` to encourage focus.
 
 The sites to block are listed in *[sites-to-block.txt](sites-to-block.txt)*.
 
