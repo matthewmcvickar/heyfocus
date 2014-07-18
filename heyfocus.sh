@@ -1,7 +1,9 @@
 #!/bin/bash
 
+current_directory="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
 hosts_file="/etc/hosts"
-sites_to_block="sites-to-block.txt"
+sites_to_block="${current_directory}/sites-to-block.txt"
 start_token="# Begin list of sites to block while focusing."
 end_token="# End list of sites to block while focusing."
 restart_network="dscacheutil -flushcache"
