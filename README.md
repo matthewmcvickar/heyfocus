@@ -4,7 +4,7 @@ A script that add distracting sites to the `hosts` file and redirects them to `l
 
 The sites to block are listed in *[sites-to-block.txt](sites-to-block.txt)*.
 
-This script borrows heavily from [Alex Payne's Get-Back-To-Work Hack](https://al3x.net/2009/09/14/my-get-back-to-work-hack.html) and [Vic Cherubini's get-shit-done](https://github.com/leftnode/get-shit-done) script.
+This script borrows heavily from [Alex Payne's Get-Back-To-Work Hack](https://al3x.net/2009/09/14/my-get-back-to-work-hack.html) and [Vic Cherubini's get-shit-done](https://github.com/leftnode/get-shit-done).
 
 
 ## Usage/Installation
