@@ -12,7 +12,7 @@ This script borrows heavily from [Alex Payne's Get-Back-To-Work Hack](https://al
 
 ### Don't Use This
 
-This is not a very robust or flexible script and it may not work on your computer for any number of reasons. It shouldn't screw up your hosts file, but it might? ¯\(ツ)/¯
+This is not a very robust or flexible script and it may not work on your computer for any number of reasons. It shouldn't screw up your hosts file, but it might? ¯\\(ツ)/¯
 
 So:
 
