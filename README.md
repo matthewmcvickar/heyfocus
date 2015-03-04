@@ -16,7 +16,9 @@ This is not a very robust or flexible script and it may not work on your compute
 
 So:
 
-- If you want something that Just Works, can block applications and not just URLs, and can do lots of other things, get [Concentrate](http://www.getconcentrating.com/) ($29). (I have used this app for years but wanted something I could trigger from the command line and just need blocked domains, so I made Hey! Focus!.)
+- If you want something that Just Works, can block applications and not just URLs, among other features, then [Focus](https://heyfocus.com/) ($20) seems to be a good bet. (I haven't used it myself, but it looks decent.)
+
+- I used to recommend [Concentrate](http://www.getconcentrating.com/) ($29), but it is no longer actively maintained or developed and doesn't appear to work on OS X Yosemite.
 
 - If you want to block your access to the internet entirely, use [Freedom](http://macfreedom.com/) ($10).
 
