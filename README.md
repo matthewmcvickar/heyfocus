@@ -18,8 +18,6 @@ So:
 
 - If you want something that Just Works, can block applications and not just URLs, among other features, then [Focus](https://heyfocus.com/) ($20) seems to be a good bet. (I haven't used it myself, but it looks decent.)
 
-- I used to recommend [Concentrate](http://www.getconcentrating.com/) ($29), but it is no longer actively maintained or developed and doesn't appear to work on OS X Yosemite.
-
 - If you want to block your access to the internet entirely, use [Freedom](http://macfreedom.com/) ($10).
 
 
