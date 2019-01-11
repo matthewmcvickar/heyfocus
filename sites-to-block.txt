@@ -3,6 +3,7 @@ discogs.com
 last.fm
 pitchfork.com
 albumoftheyear.org
+bandcamp.com
 
 # Reading
 wikipedia.org
@@ -14,7 +15,7 @@ pinboard.in
 reddit.com
 tumblr.com
 twitter.com
-mastodone.social
+mastodon.social
 
 # Video
 youtube.com
