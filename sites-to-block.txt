@@ -2,6 +2,7 @@
 discogs.com
 last.fm
 pitchfork.com
+albumoftheyear.org
 
 # Reading
 wikipedia.org
@@ -9,12 +10,11 @@ instapaper.com
 
 # Social
 facebook.com
-flickr.com
-mlkshk.com
 pinboard.in
 reddit.com
 tumblr.com
 twitter.com
+mastodone.social
 
 # Video
 youtube.com
